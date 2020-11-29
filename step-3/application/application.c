@@ -23,7 +23,7 @@
 #include <math.h>
 #include <string.h>
 
-#define PROCESSORS 3
+#define PROCESSORS 4
 
 #define uchar unsigned char
 #define FOPENB 1
