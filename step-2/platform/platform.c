@@ -120,15 +120,15 @@ int main(int argc, char **argv) {
     // start address)
     if (!icmLoadProcessorMemory(
             processor0,
-            "C:/Users/johan/dev/upf/multiprocessor/step-1/application/application.OR1K.elf", False,
+            "C:/Users/johan/dev/upf/multiprocessor/step-2/application/application.OR1K.elf", False,
             False, True) ||
         !icmLoadProcessorMemory(
             processor1,
-            "C:/Users/johan/dev/upf/multiprocessor/step-1/application/application.OR1K.elf", False,
+            "C:/Users/johan/dev/upf/multiprocessor/step-2/application/application.OR1K.elf", False,
             False, True) ||
         !icmLoadProcessorMemory(
             processor2,
-            "C:/Users/johan/dev/upf/multiprocessor/step-1/application/application.OR1K.elf", False,
+            "C:/Users/johan/dev/upf/multiprocessor/step-2/application/application.OR1K.elf", False,
             False, True)) {
         return -1;
     }
